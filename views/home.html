@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Kitchening!!</title>
+    <!-- animate css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/c65f2f1cc8.js" crossorigin="anonymous"></script>
 </head>
@@ -14,7 +16,7 @@
 
         <!-- cabecera -->
         <header class="header">
-            <img src="img/logo.jpg" alt="logotipo" class="header__logo">
+            <a href="/"><img src="img/logo.jpg" alt="logotipo" class="header__logo"></a>
 
             <a href="#" class="header__bars">
                 <i class="fa fa-bars"></i>
@@ -22,12 +24,12 @@
 
             <nav class="header__nav">
                 <ul>
-                    <li><a href="#">home</a></li>
-                    <li><a href="#">quienes</a></li>
-                    <li><a href="#">servicios</a></li>
-                    <li><a href="#">portfolio</a></li>
-                    <li><a href="#">sucursales</a></li>
-                    <li><a href="#">contacto</a></li>
+                    <li class="animate__animated animate__fadeInDown"><a href="/" >home</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-1s"><a href="/contact">contacto</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-2s"><a href="#" >quienes</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-3s"><a href="/carrito" >carrito</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-4s"><a href="/registro" >registrate</a></li>
+                    <li class="animate__animated animate__fadeInDown animate__delay-5s"><a href="/login" >ingresar</a></li>
                 </ul>
             </nav>
         </header>
@@ -42,7 +44,7 @@
 
         <!-- productos -->
         <div class="home__main__products">
-            <article class="home__main__products__product">
+            <article class="home__main__products__product" data-aos="flip-left"  data-aos-duration="500">
                 <div class="home__main__products__product__photo-container">
                     <img class="home__main__products__product__photo-container--photo" src="img/img-pdto-1.jpg" alt="pdto 01">
                     <img class="home__main__products__product__photo-container--special" src="img/img-nuevo.png" alt="plato nuevo">
@@ -51,9 +53,10 @@
                 <h3>Lorem ipsum amet</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint
                     necessitatibus, officia ex.</p>
-                <a class="home__main__products__product__photo-container--more" ref="#">ver más</a>
+                <a class="home__main__products__product__photo-container--more" href="/detalle">ver más</a>
             </article>
-            <article class="home__main__products__product">
+            <article class="home__main__products__product " data-aos="flip-left"  data-aos-duration="1000">
+
                 <div class="home__main__products__product__photo-container">
                     <img class="home__main__products__product__photo-container--photo" src="img/img-pdto-2.jpg" alt="pdto 02">
                     <img class="home__main__products__product__photo-container--special" src="img/img-gratis.png" alt="gratis más de 3">
@@ -62,9 +65,10 @@
                 <h3>Lorem ipsum amet</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint
                     necessitatibus, officia ex.</p>
-                <a class="home__main__products__product__photo-container--more" ref="#">ver más</a>
+                <a class="home__main__products__product__photo-container--more" href="/detalle">ver más</a>
             </article>
-            <article class="home__main__products__product">
+            <article class="home__main__products__product " data-aos="flip-left"  data-aos-duration="1500">
+
                 <div class="home__main__products__product__photo-container">
                     <img class="home__main__products__product__photo-container--photo" src="img/img-pdto-3.jpg" alt="pdto 03">
                     <img class="home__main__products__product__photo-container--special" src="img/img-descuento.png" alt="descuento efectivo">
@@ -73,9 +77,9 @@
                 <h3>Lorem ipsum amet</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint
                     necessitatibus, officia ex.</p>
-                <a class="home__main__products__product__photo-container--more" href="#">ver más</a>
+                <a class="home__main__products__product__photo-container--more" href="/detalle">ver más</a>
             </article>
-            <article class="home__main__products__product">
+            <article class="home__main__products__product" data-aos="flip-left"  data-aos-duration="500">
                 <div class="home__main__products__product__photo-container">
                     <img class="home__main__products__product__photo-container--photo" src="img/img-pdto-1.jpg" alt="pdto 01">
                     <img class="home__main__products__product__photo-container--special" src="img/img-nuevo.png" alt="plato nuevo">
@@ -84,9 +88,9 @@
                 <h3>Lorem ipsum amet</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint
                     necessitatibus, officia ex.</p>
-                <a class="home__main__products__product__photo-container--more" ref="#">ver más</a>
+                <a class="home__main__products__product__photo-container--more" href="/detalle">ver más</a>
             </article>
-            <article class="home__main__products__product">
+            <article class="home__main__products__product" data-aos="flip-left"  data-aos-duration="1000">
                 <div class="home__main__products__product__photo-container">
                     <img class="home__main__products__product__photo-container--photo" src="img/img-pdto-2.jpg" alt="pdto 02">
                     <img class="home__main__products__product__photo-container--special" src="img/img-gratis.png" alt="gratis más de 3">
@@ -95,9 +99,9 @@
                 <h3>Lorem ipsum amet</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint
                     necessitatibus, officia ex.</p>
-                <a class="home__main__products__product__photo-container--more" ref="#">ver más</a>
+                <a class="home__main__products__product__photo-container--more" href="/detalle">ver más</a>
             </article>
-            <article class="home__main__products__product">
+            <article class="home__main__products__product" data-aos="flip-left"  data-aos-duration="1500">
                 <div class="home__main__products__product__photo-container">
                     <img class="home__main__products__product__photo-container--photo" src="img/img-pdto-3.jpg" alt="pdto 03">
                     <img class="home__main__products__product__photo-container--special" src="img/img-descuento.png" alt="descuento efectivo">
@@ -105,23 +109,27 @@
                 </div>    <h3>Lorem ipsum amet</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut recusandae eaque debitis sint
                     necessitatibus, officia ex.</p>
-                <a class="home__main__products__product__photo-container--more" ref="#">ver más</a>
+                <a class="home__main__products__product__photo-container--more" href="/detalle">ver más</a>
             </article>
             </div>
         </main>
         <footer class="footer">
 			<nav class="footer__nav">
-				<ul>
-					<li><a href="#">home</a></li>
-					<li><a href="#">quienes</a></li>
-					<li><a href="#">servicios</a></li>
-					<li><a href="#">portfolio</a></li>
-					<li><a href="#">sucursales</a></li>
-					<li><a href="#">contacto</a></li>
-				</ul>
+                <ul>
+                    <li ><a href="/" >home</a></li>
+                    <li ><a href="/contact">contacto</a></li>
+                    <li ><a href="#" >quienes</a></li>
+                    <li ><a href="/carrito" >carrito</a></li>
+                    <li ><a href="/registro" >registrate</a></li>
+                    <li ><a href="/login" >ingresar</a></li>
+                </ul>
 			</nav>
 		</foote>
     
-</body>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+    </body>
 
 </html>

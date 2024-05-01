@@ -1,11 +1,8 @@
-:root {
-    
+:root { 
     --colorRojo: #b81e14;
     --colorGris: #92908b;
     --colorGrisOscuro : #444444;
-
 }
-
 
 * {
     margin: 0;

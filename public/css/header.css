@@ -10,6 +10,7 @@
     border-radius: 50%;
     border: 1px solid var(--colorGris);
     width: 180px;
+    animation: rotate-scale-up 2s infinite;
 }
 
 .header__bars {
@@ -29,15 +30,23 @@
     width: 100%;
     gap: 1px;
 }
-
 .header__nav ul li {
+    width: 100%;
+}
+.header__nav ul li a {
     background-color: var(--colorGrisOscuro);
     width: 100%;
     text-align: center;
     text-transform: uppercase;
     padding: 8px 0;
+    display: inline-block;
+    transition-property: background-color;
+    transition-duration: 1s;
 }
 
+.header__nav ul li a:hover {
+  background-color: var(--colorGris);
+}
 @media  (min-width: 768px ) {
     .header__bars{
         display: none;
@@ -54,7 +63,9 @@
     }
 
 }
+
 /*desktop*/
+
 @media (min-width: 1024){
     .header__nav ul li{
         font-size: 1rem;
