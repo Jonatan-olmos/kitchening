@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head.ejs',{title : "Kitchening"}) %>
+
+<body class="home">
+   
+<%- include('./partials/heder.ejs') %>
+        <!-- cabecera -->
+      
+        <main>
+            <!-- banner -->
+            <div >
+                <img class="home__main__banner" src="images//img-banner.jpg" alt="banner">
+            </div>
+
+            <!-- productos -->
+        </div>
+
+        <!-- productos -->
+        <div class="home__main__products">
+
+            <% for( let i = 1; i <= 6 ; i++ ) { %>
+            <%- include('./partials/product-card') %>
+            <% } %>
+            </div>
+        </main>
+
+    
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
+          <%- include('./partials/footer.ejs') %>
+    </body>
+
+</html>
