@@ -11,19 +11,27 @@
         <main>
             <!-- banner -->
             <div >
-                <img class="home__main__banner" src="images//img-banner.jpg" alt="banner">
+                <img class="home__main__banner" src="images/img-banner.jpg" alt="banner">
             </div>
 
-            <!-- productos -->
-        </div>
+ 
 
         <!-- productos -->
         <div class="home__main__products">
-
-            <% for( let i = 1; i <= 6 ; i++ ) { %>
-            <%- include('./partials/product-card') %>
-            <% } %>
-            </div>
+          
+            <% products.forEach(product => { %>
+                <%- include('./partials/product-card',{
+                         ...product
+                    }) %>
+             
+            <% }) %>
+            
+        
+        
+        
+        
+        
+     
         </main>
 
     
