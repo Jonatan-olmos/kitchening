@@ -17,8 +17,13 @@
                         <div>
                                 <h3><%= name %></h3>
                                 <hr>
+                                <h5><a href="" data-bs-toggle="modal" data-bs-target="#modalMap"
+                                        class="text-secondary"><i
+                                            class="fa-solid fa-map-location-dot"></i></a>                       
+                                        </h5>
                                 <p><%= description %></p>
                         </div>
+                        <%- include('../partials/modal-show-map-detail.ejs', {url_map}) %>
                  </div>
             </div>
         </section>
