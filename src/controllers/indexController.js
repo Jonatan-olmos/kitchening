@@ -17,7 +17,7 @@ module.exports ={
     },
     admin:(req, res) =>{
 
-        return res.render('users/dasboard',{
+        return res.render('dasboard',{
             products
         })
     },

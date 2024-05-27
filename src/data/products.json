@@ -65,7 +65,7 @@
       "description": "“Somos un restaurante a puertas cerradas, con un menú fijo que varia cada semana. Contamos con lugar para recibir a 14 personas, brindando de esta manera un servicio personalizado, cuidando cada detalle para mimar a nuestros comensales. Por esta razón es imprescindible la reserva previa.TORO 777 nace de la idea de poder compartir, como con amigos, la calidez de nuestra casa con un trato ameno, una cocina cuidada y equilibrada, sumada a un ritmo distendido. Te invitamos a entrar en TORO 777 donde encontrarás algún detalle que te transportará en el tiempo y a vivir una experiencia gastronómica diferente.”\r\nToro777 Restaurante a puertas cerradas.",
       "address": "barrio chacarita ",
       "url_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5140760743393!2d-58.445295699999996!3d-34.59116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5f40f61ce1b%3A0x244937c0065a2fc2!2sFitz%20Roy%20800%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716707794265!5m2!1ses-419!2sar",
-      "mainImage": "img-pdto-1.jpg",
+      "mainImage": "img-pdto-3.jpg",
       "images": [],
       "category": "romantico"
    },
@@ -82,21 +82,21 @@
    {
       "id": "3a504a69-1bef-497c-a01a-04a8d97faf6b",
       "name": "Gran Bar Danzón",
-      "description": "La carne argentina es admirada en todo el mundo, y aquí es un gran lugar para probar grandes platos. El Gran Bar Danzón es una mezcla de restaurante, vinoteca y coctelería que, además de carne, sirve un sushi muy rico.\r\n\r\nEl ambiente acogedor y la penumbra son el marco perfecto para una cena especial para dos. Tú y tu ser querido serán bien atendidos por los camareros y seguro que querrán comer de nuevo. ¿Quieres apostar?\r\n",
+      "description": "La carne argentina es admirada en todo el mundo, y aquí es un gran lugar para probar grandes platos. El Gran Bar Danzón es una mezcla de restaurante, vinoteca y coctelería que, además de carne, sirve un sushi muy rico.\r\n\r\nEl ambiente acogedor y la penumbra son el marco perfecto para una cena especial para dos. Tú y tu ser querido serán bien atendidos por los camareros y seguro que querrán comer de nuevo. ¿Quieres apostar?",
       "address": "Libertad 1161, Retiro.",
       "url_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.3662741403446!2d-58.3842924!3d-34.59489849999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccab9c6dd980f%3A0x20cf589b4c3a6530!2sLibertad%201161%2C%20C1012AAW%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716709106788!5m2!1ses-419!2sar",
       "mainImage": "img-pdto-1.jpg",
       "images": [],
-      "category": "sofisticado"
+      "category": "romantico"
    },
    {
-      "id": "88d3f262-ef54-414f-abe5-10a270b964f4",
-      "name": "Jonatan 2",
-      "description": " podkpaso dasdipa dbapsd",
-      "address": "Av. Alicia Moreau de Justo 1768, Puerto Madero.",
-      "url_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4021092644457!2d-58.365363800000004!3d-34.6192774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d167d3c50b%3A0xec8071045f2c70c7!2sAv.%20Alicia%20Moreau%20de%20Justo%201768%2C%20C1107%20AFJ%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716708507015!5m2!1ses-419!2sar",
+      "id": "21f03f30-8321-471f-a0d8-2240c27e04cf",
+      "name": "La Cocina",
+      "description": "La Cocina puede considerarse un lugar simple con clase. Tan sencillo como agradable, este establecimiento ofrece sabrosas empanadas, vinos y cervezas a precios muy razonables.\r\n\r\nTodo es tan fácil que puedes comer en la mesa o en el mostrador. Aunque el ambiente se considerare un poco cutre para algunos visitantes, la comida es de alto nivel. ¡Puedes ir sin miedo!",
+      "address": "Av. Pueyrredón 1508, Recoleta",
+      "url_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.438239360512!2d-58.40458472565462!3d-34.59307825693398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9a76a96b6d%3A0x68d7ae7589a26b86!2sAv.%20Pueyrred%C3%B3n%201508%2C%20C1118AAS%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716738788026!5m2!1ses-419!2sar",
       "mainImage": "img-pdto-1.jpg",
       "images": [],
-      "category": "barato"
+      "category": "sofisticado"
    }
 ]
