@@ -10,7 +10,7 @@ const productsFiltered = products.filter(product => product.id != id);
 
 escribirJSON(productsFiltered, 'products')
 
-return res.redirect('/admin')
+return res.redirect("/admin")
 
 
 }

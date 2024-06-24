@@ -9,6 +9,7 @@ module.exports = (req, res) =>{
       const product = products.find(product => product.id == id)
 
         return res.render('products/product-detail',{
-            ...product
+            ...product,
+        
         })
     }
