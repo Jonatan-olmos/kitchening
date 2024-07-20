@@ -1,17 +1,16 @@
-var express = require('express');
-var router = express.Router();
-const {index, contact, cart, admin, searchAdmin} = require('../controllers/indexController')
+const express = require('express');
+const { index, cart, admin, searchAdmin } = require('../controllers/indexController');
+const router = express.Router();
 
 /* / */
+
 router
-.get('/',index)
-.get('/contact', contact)
-.get('/carrito', cart)
-.get('/admin',admin)
-.get('/admin/productos/buscar',searchAdmin)
+  .get('/',index)
+  .get('/carrito',cart)
+  .get('/admin',admin)
+  .get('/admin/productos/buscar',searchAdmin)
 
 
-  module.exports = router;
-
+module.exports = router
 
 

@@ -1,18 +1,16 @@
-var express = require('express');
-var router = express.Router();
-const { detail, add, edit, create, update, remover } = require('../controllers/productsController');
+const express = require('express');
+const { detail, add, edit, create, update, remove } = require('../controllers/productsController');
 const upload = require('../middleware/upload');
-
+const router = express.Router();
 
 /* /productos */
-router
-.get('/detalle/:id', detail)
-.get('/agregar', add)
-.get('/editar/:id', edit)
-.post('/crear',upload.single('mainImage'), create)
-.put('/actualizar/:id', update)
-.delete('/eliminar/:id', remover)
 
+router
+  .get('/detalle/:id', detail)
+  .get('/agregar',add)
+  .post('/crear',upload.single('mainImage'), create)
+  .get('/editar/:id',edit)
+  .put('/actualizar/:id',upload.single('mainImage'),update)
+  .delete('/eliminar/:id',remove)
 
 module.exports = router;
-

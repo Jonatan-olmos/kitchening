@@ -88,45 +88,5 @@
       "mainImage": "img-pdto-1.jpg",
       "images": [],
       "category": "romantico"
-   },
-   {
-      "id": "21f03f30-8321-471f-a0d8-2240c27e04cf",
-      "name": "La Cocina",
-      "description": "La Cocina puede considerarse un lugar simple con clase. Tan sencillo como agradable, este establecimiento ofrece sabrosas empanadas, vinos y cervezas a precios muy razonables.\r\n\r\nTodo es tan fácil que puedes comer en la mesa o en el mostrador. Aunque el ambiente se considerare un poco cutre para algunos visitantes, la comida es de alto nivel. ¡Puedes ir sin miedo!",
-      "address": "Av. Pueyrredón 1508, Recoleta",
-      "url_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.438239360512!2d-58.40458472565462!3d-34.59307825693398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9a76a96b6d%3A0x68d7ae7589a26b86!2sAv.%20Pueyrred%C3%B3n%201508%2C%20C1118AAS%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716738788026!5m2!1ses-419!2sar",
-      "mainImage": "img-pdto-1.jpg",
-      "images": [],
-      "category": "sofisticado"
-   },
-   {
-      "id": "2c81a67b-8843-4894-87f1-fc08f6281d77",
-      "name": "Jonatan 2",
-      "description": "erl otro dia estaba al pedo",
-      "address": "mi casa",
-      "url_map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.4021092644457!2d-58.365363800000004!3d-34.6192774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d167d3c50b%3A0xec8071045f2c70c7!2sAv.%20Alicia%20Moreau%20de%20Justo%201768%2C%20C1107%20AFJ%2C%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1716708507015!5m2!1ses-419!2sar",
-      "mainImage": "1718549097159_products_.jpg",
-      "images": [],
-      "category": "sofisticado"
-   },
-   {
-      "id": "0c4b4920-f44e-4d57-95a1-fc702d3d3552",
-      "name": "joni",
-      "description": "dasdasd sdasda daa dax as a da",
-      "address": "mi casa",
-      "url_map": "https://google.com",
-      "mainImage": "1719090080810_products_.jpg",
-      "images": [],
-      "category": "romantico"
-   },
-   {
-      "id": "cdc67a99-6fff-4980-92d9-1524a7463467",
-      "name": "das",
-      "description": "hjpsaoidhjop o asopdasop",
-      "address": "mi casa",
-      "url_map": "https://google.com",
-      "mainImage": null,
-      "images": [],
-      "category": "romantico"
    }
 ]
