@@ -3,7 +3,8 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
-const methodOverride = require('method-override')
+const methodOverride = require('method-override');
+const session = require('express-session');
 
 const indexRouter = require('./routes/index.routes');
 const usersRouter = require('./routes/users.routes');
@@ -31,7 +32,12 @@ app
 /* soporte para métodos PUT, PARTH & DELETE*/
 .use(methodOverride('_method'))
 
-/*rutas */
+/* configuración session va antes de las rutas  */
+.use(session({
+  secret : 'Mensaje secreto'
+}))
+
+/* rutas */
 .use('/', indexRouter)
 .use('/usuarios', usersRouter)
 .use('/productos', productsRouter);

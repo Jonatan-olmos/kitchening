@@ -30,6 +30,7 @@
                             <input name="name" type="text" value="<%= name %>" class="form-control" id="name" >
                             <label for="name">Nombre</label>
                           </div>
+                          <small class="text-danger ms-2"><%= (locals.errors && errors.name) && errors.name.msg %></small>
                         </div>
 
                         <div class="col-12 col-md-6 mb-3">
@@ -38,14 +39,18 @@
                             <input name="address" value="<%= address %>" type="text" class="form-control" id="address"  >
                             <label for="address">Direccion</label>
                           </div>
+                          <small class="text-danger ms-2"><%= (locals.errors && errors.address) && errors.address.msg %></small>
+
                         </div>
 
                         
-                        <div class="col-12 mb-3 d-flex justify-content-between align-items-center gap-3">
-
+                        <div class="col-12 mb-3 d-flex justify-content-between align-items-start gap-3">
+                          <div class="w-100">
                           <div class="form-floating w-100">
                             <input name="url_map" value="<%= url_map %>" type="text" class="form-control" id="url_map"  >
                             <label for="url_map">URL Maps</label>
+                          </div>
+                          <small class="text-danger ms-2"><%= locals.errors && errors.url_map && errors.url_map.msg%></small>
                           </div>
                           <a href="https://www.google.com.ar/maps" target="_blank" class="btn btn-lg btn-outline-dark"><i
                             class="fa-solid fa-map-location-dot"></i></a>
@@ -55,9 +60,9 @@
                          
                         <div class="form-floating">
                             <select name="category" class="form-select" id="category" aria-label="Floating label select example">
-                              <option <%= category === "barato" && 'selected' %> value="barato">Barato</option>
-                              <option <%= category === "romantico" && 'selected' %> value="romantico">Romantico</option>
-                              <option <%= category === "sofisticado" && 'selected' %> value="sofisticado">Sofisticado</option>
+                            <% categories.forEach(cat  => { %>
+                             <option value="<%= cat %>" <%= category == cat ? 'select' : null  %>><%= cat %></opon>
+                            <% }) %>
                             </select>
                             <label for="category">Categorias</label>
                           </div>
@@ -82,6 +87,8 @@
                             <textarea name="description" class="form-control" placeholder="Descripcion" id="description" style="height: 150px;"><%= description %></textarea>
                             <label for="description">Descripcion</label>
                           </div>
+                          <small class="text-danger ms-2"><%= (locals.errors && errors.description) && errors.description.msg %></small>
+
                     </div>
 
                     <div class="col-12 d-flex justify-content-end">

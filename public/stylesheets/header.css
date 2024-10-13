@@ -41,7 +41,7 @@
     padding: 8px 0;
     display: inline-block;
     transition-property: background-color;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 .header__nav ul li a:hover {

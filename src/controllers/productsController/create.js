@@ -1,16 +1,20 @@
 const { leerJSON, escribirJSON } = require("../../data");
 const Product = require("../../data/Product");
-const {validationResult} = require('express-validator')
+const {validationResult} = require('express-validator');
+const categories = require('../../data/categories.json');
+const fs = require('fs');
+
 
 module.exports = (req,res) => {
 const errors = validationResult(req)
-return res.send(errors)
-
+if (errors.isEmpty()){
     const {name, address,url_map, description, category} = req.body;
 
-    const mainImage = req.file;
+    const mainImage = req.files.mainImage;
+    const images = req.files.images;
 
-    const newProduct = new Product(name, address, url_map, description, category, mainImage)
+
+    const newProduct = new Product(name, address, url_map, description, category, mainImage,images)
     const products = leerJSON('products');
 
     products.push(newProduct);
@@ -18,5 +22,20 @@ return res.send(errors)
     escribirJSON(products, 'products')
 
     return res.redirect('/admin')
+}else{
+    if(req.file){
+        fs.existsSync(`public/images/${req.file.filename}`) &&
+
+        fs.unlinkSync(`public/images/${req.file.filename}`)
+    }
+    return res.render('products/product-add',{
+       errors : errors.mapped(),
+       old : req.body,
+       categories
+    }
+    )
+}
+
+
 
 }
